@@ -1,3 +1,6 @@
 # ishikadhingra.github.io
 main web page
-<h1> Ishika Dhingra</h1>
+<ul>
+  <li> I'm a Bca Graduated</li>
+  <li> I'm learning a web design course </li>
+</ul>
