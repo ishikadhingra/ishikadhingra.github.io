@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- nav bar start -->
+<nav class="navbar  sticky-top navbar-expand-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand" style="font-size:1.5rem;font-weight:bold;" href="#">Baggage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Services</a></li>
+                        <li><a class="dropdown-item" href="#">Features</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Single page</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search Here..." aria-label="Search">
+                <button class="btn btn-primary" type="submit">Go</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!-- nav end -->
+<!-- slider -->
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="true">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active a"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="a"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="a"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="pexels-godisable-jacob-956727.jpg" class="d-block w-100 " alt="Image-1">
+        </div>
+        <div class="carousel-item">
+            <img src="pexels-alexey-demidov-11077363.jpg" class="d-block w-100 " alt="Image-2">
+        </div>
+        <div class="carousel-item">
+            <img src="pexels-elias-de-carvalho-1144834 (1).jpg" class="d-block w-100 " alt="Image-3">
+        </div>
+    </div>
+    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next  " type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon  bg-dark rounded-circle" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- slider -->
+<div class="container-fluid ">
+    <div class="row p-4">
+        <div class=" col  col-sm-12 col-md-12 col-lg-4  col-xl-4 col-xxl-4 p-4">
+            <div class="h4">FAST & FREE DELIVERY</div>
+            <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, obcaecati Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Omnis, in corrupti cumque fuga sunt delectus.</div>
+        </div>
+        <div class="col  col-sm-12 col-md-12 col-lg-4  col-xl-4 col-xxl-4p-4">
+            <div class="h4">SAFE & SECURE PAYMENTS</div>
+            <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, obcaecati Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Omnis, in corrupti cumque fuga sunt delectus.</div>
+
+        </div>
+        <div class="col  col-sm-12 col-md-12 col-lg-4  col-xl-4 col-xxl-4p-4">
+            <div class="h4">100% MONEY BACK GUARANTEE
+            </div>
+            <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, obcaecati Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Omnis, in corrupti cumque fuga sunt delectus.</div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8 ">
+            <img src="pexels-godisable-jacob-1936848.jpg" height="450px" width="100%">
+        </div>
+        <div class="col-4 p-4 my-2">
+            <div class="h4">Travel Must Haves</div>
+            <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, obcaecati Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Omnis, in corrupti cumque fuga sunt delectus.</div>
+            <div class="btn  my-2 text-center">Shop Now</div>
+
+        </div>
+    </div>
+    <div class="row p-4">
+        <h3 class="text-center  p-4" style="font-weight:bold">Safety Meets Style</h3>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-4 ">
+            <img src="c1.jpg" height="500px" width="100%">
+        </div>
+        <div class="col-4 text-center">
+            <h3>Need Extra Space</h3>
+            <div p-2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit autem ea excepturi
+                delectus
+                quis dignissimos asperiores fugiat omnis vel.</div>
+            <div class="btn  my-2 text-center">Shop Now</div>
+
+        </div>
+        <div class="col-4">
+            <img src="c2.jpg" height="500px" width="100%">
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row my-5 mb-5 g-0">
+        <div class="col-6"><img src="ab1.jpg" width="100%" height="500px">
+
+        </div>
+        <div class="col-6"><img src="ab2.jpg" width="100%" height="500px"></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-4 ">
+            <h3>Need Extra Space</h3>
+            <div class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit autem ea
+                excepturi
+                delectus
+                quis dignissimos asperiores fugiat omnis vel.</div>
+            <div class="btn  my-2 text-center">Shop Now</div>
+
+        </div>
+        <!-- Images -->
+        <div class="col-8">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="g1.jpg" class="card-img-top" alt="Image2">
+
+                        <!-- <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                        additional content.</p>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                                </div> -->
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="g3.jpg" class="card-img-top" alt="Image2">
+                        <!-- <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div> -->
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="g2.jpg" class="card-img-top" alt="...">
+                        <!-- <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional
+                                    content. This card has even longer content than the first to show that equal height
+                                    action.</p>
+                            </div> -->
+                        <!-- <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div> -->
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="g3.jpg" class="card-img-top" alt="Image2">
+                        <!-- <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                    additional content.</p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted">Last updated 3 mins ago</small>
+                                            </div> -->
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="g2.jpg" class="card-img-top" alt="Image2">
+                        <!-- <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                    additional content.</p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted">Last updated 3 mins ago</small>
+                                            </div> -->
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="g1.jpg" class="card-img-top" alt="Image2">
+                        <!-- <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                    additional content.</p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted">Last updated 3 mins ago</small>
+                                            </div> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid" style="background-color: whitesmoke">
+    <div class="row my-2 p-5">
+        <h5 class="text-center p-2">Subscribe to the Handbags Store mailing list to receive updates on</h5>
+
+        <h5 class="text-center my-1">new arrivals, special
+            offers and other discount
+            information.</h5>
+        <div class="row g-3">
+            <div class="col-sm-7 ">
+                <input type="text" class="form-control rounded-0" style=" box-shadow: 1px 2px 8px white"
+                    placeholder="Enter your email..." aria-label="City">
+            </div>
+            <div class="col">
+                <!-- <input type="text" class="form-control" placeholder="State" aria-label="State"> -->
+                <div class="     btn" style="width: 159px; height: 42px; background-color: cadetblue;color:white;  box-shadow: 1px 3px 4px #000, 1px 2px 8px white;
+                    " aria-label="City">
+                    Subscribe
+                </div>
+                <!-- <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+    <div class="row text-white  box-shadow">
+        <div class="col-4 text-center bg-black p-2 ">
+            <i class="fas fa-truck " style="color:red"></i>
+            <h4>Free shipping</h4>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+        <div class="col-4 text-center bg-black p-2">
+            <i class="fas fa-bullhorn" style="color:red"></i>
+            <h4>Free discount</h4>
+            <p>Lorem, ipsum dolor.</p>
+
+        </div>
+        <div class="col-4 text-center bg-black p-2 ">
+            <i class="fas fa-gift" style="color:red"></i>
+            <h4>Member discount</h4>
+            <p>Lorem, ipsum dolor.</p>
+
+        </div>
+
+    </div>
+    </body>
+    <script src="https://kit.fontawesome.com/7fac20cd86.js" crossorigin="anonymous"></script>
+
+</html>
